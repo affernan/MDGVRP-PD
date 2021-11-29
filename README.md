@@ -1,6 +1,6 @@
 # Instances for the Multi-Depot Green VRP with Pickups and Deliveries (MDGVRP-PD)
 
-In this repository you can find information about the MDGVRP-PD instances proposed in the submitted article entitled *Optimization of Green Pickup and Delivery Operations in Multi-Depot Distribution Problems*, International Conference on Computational Logistics (ICCL2021), September 27-29, 2021, University of Twente, Enschede, The Netherlands. The article is available at [link](https://link.springer.com/chapter/10.1007/978-3-030-87672-2_32).
+In this repository you can find information about the MDGVRP-PD instances proposed in the submitted article entitled ''*Optimization of Green Pickup and Delivery Operations in Multi-Depot Distribution Problems*'', International Conference on Computational Logistics (ICCL2021), September 27-29, 2021, University of Twente, Enschede, The Netherlands. The article is available at [link](https://link.springer.com/chapter/10.1007/978-3-030-87672-2_32).
 
 The generated data instances consist on a modified subset of the n100 and n200 groups of instances proposed in [Sartori and Buriol (2020)](https://www.sciencedirect.com/science/article/pii/S0305054820301829), where the authors considering real urban locations set of routes can be performed in a single labor day (eight hours). For that, the following two instances was plotted thorugh [Google Maps](https://www.google.com/maps/d/edit?mid=1Y-Qd16qhqWWvHsVQsBDVs4q4_Car6wVq&usp=sharing).
 
