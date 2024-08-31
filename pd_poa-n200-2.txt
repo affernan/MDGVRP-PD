@@ -1,4 +1,4 @@
-NAME: poa-n200-5
+NAME: poa-n200-2
 LOCATION: Porto-Alegre
 COMMENT:  Sartori and Buriol (2019)
 SIZE: 200
