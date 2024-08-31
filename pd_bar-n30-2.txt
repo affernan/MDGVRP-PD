@@ -1,4 +1,4 @@
-NAME: bar-n30-5
+NAME: bar-n30-2
 LOCATION: Barcelona
 COMMENT:  Sartori and Buriol (2019)
 SIZE: 30
