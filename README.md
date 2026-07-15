@@ -1,12 +1,35 @@
-# Instances for the Multi-Depot Green VRP with Pickups and Deliveries (MDGVRP-PD)
+# MDGVRP-PD Instances
 
-In this repository you can find information about the MDGVRP-PD instances proposed in the submitted article entitled ''*Optimization of Green Pickup and Delivery Operations in Multi-Depot Distribution Problems*'', International Conference on Computational Logistics (ICCL2021), September 27-29, 2021, University of Twente, Enschede, The Netherlands. The article is available at [link](https://link.springer.com/chapter/10.1007/978-3-030-87672-2_32).
+This repository contains benchmark instances for the Multi-Depot Green Vehicle Routing Problem with Pickups and Deliveries (MDGVRP-PD).
 
-The generated data instances consist on a modified subset of the n100 and n200 groups of instances proposed in [Sartori and Buriol (2020)](https://www.sciencedirect.com/science/article/pii/S0305054820301829), where the authors considering real urban locations set of routes can be performed in a single labor day (eight hours). For that, the following two instances was plotted thorugh [Google Maps](https://www.google.com/maps/d/edit?mid=1Y-Qd16qhqWWvHsVQsBDVs4q4_Car6wVq&usp=sharing).
+The instances were prepared for the work "Optimization of Green Pickup and Delivery Operations in Multi-Depot Distribution Problems", presented at the International Conference on Computational Logistics (ICCL 2021). The publication is available through Springer: <https://link.springer.com/chapter/10.1007/978-3-030-87672-2_32>.
 
+## Contents
 
-The modified test have n+m locations. There are n customer locations and m depots. The n locations are paired to form a total of n requests (pickup and delivery couples). This instances consists of three different groups, ranging from 10 to 200 customers and are classified in three different complexity levels: small-scale with the first 10 or 50 customers from original {n100} group from [Sartori and Buriol (2020)](https://www.sciencedirect.com/science/article/pii/S0305054820301829); medium-scale with the first 70 or 100 customers from {n100;n200}, and the last group for the large-scale with the first 150 or 200 customers. For all instances considered in this section, the time limit tour duration is 240 minutes and we add four depot locations from the remaining locations that were not used in the generated instances.  The customers’ demands and the capacity of the vehicles are considered in kilogram. Also, the vehicle parameters used is based on Light Duty type with curb-weight of 3500 kg and maximum payload of 4000 kg, what it is known as gross vehicle weight rating of a vehicle.
+The repository includes 14 plain-text instances:
 
-## Instance files
+- Barcelona: `pd_bar-*`
+- Berlin: `pd_ber-*`
+- New York City: `pd_nyc-*`
+- Porto Alegre: `pd_poa-*`
 
-Information on how to obtain the 14 files containing the definiton of the instances in the set are available under the folder [instances](https://github.com/affernan/MDGVRP-PD).
+The instances cover problem sizes from 10 to 200 customers and include four depots.
+
+## Instance Structure
+
+Each file includes:
+
+- General metadata: name, location, size, number of depots, route duration limit, and time-window length.
+- Vehicle classes with curb weight and maximum payload.
+- Customer and request nodes with coordinates, demand, service duration, time windows, and pickup-delivery pairing.
+- Depot nodes with coordinates and operating windows.
+
+The route duration limit is 240 minutes. Demands and vehicle capacities are expressed in kilograms.
+
+## Source Data
+
+The instances are based on modified subsets of the open-data pickup and delivery instances proposed by Sartori and Buriol (2020), using real urban locations.
+
+## Suggested Citation
+
+If these instances are used in academic work, please cite the ICCL 2021 paper associated with this repository and the original open-data instance source when appropriate.
